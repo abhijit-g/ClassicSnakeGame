@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="snake">
+<head>
+    <link rel="stylesheet" type="text/css" href="App/style/style.css">
+    <title>Classic Snake</title>
+</head>
+<body ng-controller="appController" ng-keydown="keydown($event)" ng-keyup="keyup($event)" style="background-color:darkgrey; text-align:center;">
+<div data-board/>
+<script src="App/lib/angular.min.js"></script>
+<script src="App/lib/lodash.min.js"></script>
+<script src="App/lib/howler.min.js"></script>
+
+<script src="App/App.js"></script>
+
+<script src="App/js/constants/GameConstants.js"></script>
+
+<script src="App/js/service/GameEngineService.js"></script>
+<script src="App/js/service/GameService.js"></script>
+<script src="App/js/service/SnakeService.js"></script>
+<script src="App/js/service/BoardService.js"></script>
+</body>
+</html>

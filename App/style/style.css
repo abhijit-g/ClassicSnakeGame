@@ -1,0 +1,47 @@
+/**
+ *
+ * @license MIT License Copyright (c) 2017 Abhijit Gurav
+ * @author  Abhijit Gurav, https://github.com/abhijit-g/
+ *
+ */
+@font-face {
+    font-family: return;
+    src: url(return.ttf);
+}
+
+.scoreboard{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 40px;
+    background-color: #428500;
+    color: #a6f03e;
+}
+
+.stat label{
+    padding-right: 7px;
+    font-family: return;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.scoreboard img{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.lives{
+    padding-top: 10px;
+    display: flex;
+}
+
+.stat{
+    display: flex;
+    padding-left: 20px;
+    color: white;
+}
+
+.stat-label{
+    color: #a5f03e;
+}
